@@ -2,11 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 6vw;
+  padding: 2px 6vw;
   background-color: white;
 
+  @media (min-width: 700px) {
+    height: 0 6vw;
+  }
+
   &__logo {
-    height: 45px;
+    height: 41px;
 
     @media (min-width: 700px) {
       height: 70px;
