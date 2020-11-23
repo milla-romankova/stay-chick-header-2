@@ -2,7 +2,7 @@
 
 Stack: Semantic HTML, SCSS with responsive web design, BEM, JS(only for adding "logged" class to header)
 
-[Demo](https://milla-romankova.github.io/stay-chick-header/)
+[Demo](https://milla-romankova.github.io/stay-chick-header-2/)
 
 Push the button to add/remove class "logged"
 
