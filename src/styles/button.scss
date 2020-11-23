@@ -1,0 +1,22 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  height: 40px;
+  width: 100px;
+  color: white;
+  background-color: #5f4b94;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 5px solid transparent;
+  border-radius: 10%;
+  outline: none;
+  transition: color 0.5s, border 0.5s, background-color 0.5s;
+
+  &:hover {
+    color: #5f4b94;
+    background-color: #f5f4f8;
+    border: 5px solid #5f4b94;
+  }
+}

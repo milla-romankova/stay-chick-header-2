@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6vw;
+  background-color: white;
+
+  &__logo {
+    height: 45px;
+
+    @media (min-width: 700px) {
+      height: 70px;
+    }
+  }
+}
+
+.logged .nav__item--logged {
+  display: block;
+}
+
+.logged .nav__login {
+  display: none;
+}
+
+.logged .nav__item--smallvw {
+  display: none;
+
+  @media(min-width: 700px) {
+    display: block;
+  }
+}
+
+.logged .nav__link {
+  margin-right: 10px;
+}
+
+.logged .nav__link--menu {
+  margin-right: 0;
+}
